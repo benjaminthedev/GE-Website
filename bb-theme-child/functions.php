@@ -107,7 +107,6 @@ function customNewFonts( $system_fonts ) {
         ),
     );  
 
-
     $system_fonts[ 'NunitoSans-SemiBoldItalic' ] = array(
         'fallback' => 'Verdana, Arial, sans-serif',
         'weights' => array(
