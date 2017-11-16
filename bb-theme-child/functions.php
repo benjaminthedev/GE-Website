@@ -115,7 +115,6 @@ function customNewFonts( $system_fonts ) {
         ),
     );                       
 
-
     $system_fonts[ 'NunitoSans-Bold' ] = array(
         'fallback' => 'Verdana, Arial, sans-serif',
         'weights' => array(
@@ -130,7 +129,6 @@ function customNewFonts( $system_fonts ) {
         ),
     );   
 
-
     $system_fonts[ 'MillerBanner' ] = array(
         'fallback' => 'Verdana, Arial, sans-serif',
         'weights' => array(
@@ -140,18 +138,11 @@ function customNewFonts( $system_fonts ) {
             '700'
         ),
     );   
-
-
-
-
-
     return $system_fonts;
 }
 
 //Add to Beaver Builder Theme Customizer
 add_filter( 'fl_theme_system_fonts', 'customNewFonts' );
 
-
 //Add to Page Builder modules
 add_filter( 'fl_builder_font_families_system', 'customNewFonts' );
-

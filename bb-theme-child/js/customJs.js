@@ -15,11 +15,6 @@ $j('.fl-page-footer-wrap').before('<div id="footerLogoWrap"><img class="footerLo
 
 //Custom Logo Click
 
-// $j('img.footerLogo').click(function(){
-//    window.location.href='http://groupevolution.bedevious.co.uk';
-// })
-
-
 $j('#footerLogoWrap').click(function() {
   //alert( "Handler for .click() called." );
   window.location.href='http://groupevolution.bedevious.co.uk';
