@@ -213,9 +213,10 @@ a.fl-post-slider-feed-more{
 }
 
 a.fl-post-slider-feed-more:hover{
-   background-color: #000;
-  border: 2px solid #bd9d4b;
-  color: #fff;
+    background-color: #fff;
+    border: 2px solid #bd9d4b;
+    color: #000!important;
+    text-decoration: none;
 }
 
 .fl-post-slider-feed-content p{
@@ -235,6 +236,12 @@ div#customFooterFive h4 {
     text-align: center;
     font-size: 13px;
     font-family: 'NunitoSans-Regular', Verdana, Arial, sans-serif, serif;
+}
+
+/*-- Footer Custom Menus --*/
+
+#customFooterFive ul li a{
+  
 }
 
 /*-- Footer Logo Attached --*/
