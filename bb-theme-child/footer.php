@@ -32,32 +32,32 @@
 
 
 	<div id="customFooterFive">
-	<div class="container">	
-		<div class="row">
+		<div class="container">	
+			<div class="row">
 
-		   <div class="col-sm-2">
-		   	<?php dynamic_sidebar('FooterMenu01'); ?> 
-		   </div>
+			   <div class="col-sm-3A">
+			   	<?php dynamic_sidebar('FooterMenu01'); ?> 
+			   </div>
 
-		   <div class="col-sm-2">
-		   	<?php dynamic_sidebar('FooterMenu02'); ?> 
-		   </div>
+			   <div class="col-sm-3A">
+			   	<?php dynamic_sidebar('FooterMenu02'); ?> 
+			   </div>
 
-		   <div class="col-sm-2">
-		   	<?php dynamic_sidebar('FooterMenu03'); ?> 
-		   </div>
+			   <div class="col-sm-3A">
+			   	<?php dynamic_sidebar('FooterMenu03'); ?> 
+			   </div>
 
-		   <div class="col-sm-2">
-		   	<?php dynamic_sidebar('FooterMenu04'); ?> 
-		   </div>
+			   <div class="col-sm-3A">
+			   	<?php dynamic_sidebar('FooterMenu04'); ?> 
+			   </div>
 
-		   <div class="col-sm-2">
-		   	<?php dynamic_sidebar('FooterMenu05'); ?> 
-		   </div>		   		   		   
+			   <div class="col-sm-3A">
+			   	<?php dynamic_sidebar('FooterMenu05'); ?> 
+			   </div>		   		   		   
 
+			</div>
 		</div>
-	</div>
-</div><!-- end customFooterFive -->
+	</div><!-- end customFooterFive -->
 </div><!-- .fl-page -->
 
 
@@ -65,18 +65,18 @@
 
 
 <div id="footerLasts">
-	<div class="container">	
+	<div class="container ">	
 	<div class="row">
 
-		<div class="col-12 col-md-4 col-lg-4 col-xl-4">
+		<div class="col-12 col-md-4 col-lg-4 col-xl-4 p-0 m-0">
 			<?php dynamic_sidebar('footer-sidebar-left'); ?> 
 		</div>
 
-		<div class="col-12 col-md-4 col-lg-4 col-xl-4">
+		<div class="col-12 col-md-4 col-lg-4 col-xl-4 middleFooter p-0 m-0">
 			<?php dynamic_sidebar('footer-sidebar-middle'); ?>
 		</div>
 
-		<div class="col-12 col-md-4 col-lg-4 col-xl-4">
+		<div class="col-12 col-md-4 col-lg-4 col-xl-4 p-0 m-0">
 			<?php dynamic_sidebar('footer-sidebar-right'); ?>
 		</div>
 
