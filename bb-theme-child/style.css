@@ -36,6 +36,12 @@ a.customBtnHero {
     position: absolute;
     text-transform: uppercase;
     font-family: 'NunitoSans-ExtraBold', Verdana, Arial, sans-serif, serif;
+
+    /*-- Animations*/
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+     transition: all 0.8s ease;
 }
 
 
@@ -99,7 +105,20 @@ a.customLearnMore {
     margin-top: 50px;
     text-transform: uppercase;
     font-family: 'NunitoSans-ExtraBold', Verdana, Arial, sans-serif, serif;
+    text-decoration: none;
+    /*-- Animations*/
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+     transition: all 0.8s ease;
 }
+
+a.customLearnMore:hover{
+  background-color: #bd9d4c;
+  border: 2px solid #bd9d4c;
+}
+
+
 
 a.customLearnMoreGold{
     padding: 10px 30px;
@@ -111,9 +130,21 @@ a.customLearnMoreGold{
     width: 28%;
     margin-top: 50px;
     text-transform: uppercase;
+    text-decoration: none;
     font-family: 'NunitoSans-ExtraBold', Verdana, Arial, sans-serif, serif;
     font-size: 12px;
     letter-spacing: 1px;
+    /*-- Animations*/
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+     transition: all 0.8s ease;
+}
+
+a.customLearnMoreGold:hover{
+  background-color: #000;
+  border: 2px solid #bd9d4b;
+  color: #fff;
 }
 
 
@@ -173,6 +204,18 @@ a.fl-post-slider-feed-more{
    font-family: 'NunitoSans-ExtraBold', Verdana, Arial, sans-serif, serif;
    font-size: 12px;
    letter-spacing: 1px;
+   text-transform: uppercase;
+    /*-- Animations*/
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+     transition: all 0.8s ease;   
+}
+
+a.fl-post-slider-feed-more:hover{
+   background-color: #000;
+  border: 2px solid #bd9d4b;
+  color: #fff;
 }
 
 .fl-post-slider-feed-content p{
@@ -183,6 +226,7 @@ a.fl-post-slider-feed-more{
 
 #customFooterFive{
   background-color:#000;
+  padding: 10px 0;
 }
 
 div#customFooterFive h4 {
