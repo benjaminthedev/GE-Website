@@ -8,7 +8,9 @@ Author URI: http://www.fastlinemedia.com
 template: bb-theme
 */
 
-/*-- All fonts are in seperate fonts.css file. --*/
+.secondaryFont{
+  font-family: 'MillerBanner', Verdana, Arial, sans-serif, serif
+}
 
 /*-- Main Nav --*/
 
@@ -223,6 +225,69 @@ a.fl-post-slider-feed-more:hover{
   color:#fff;
 }
 
+
+
+/*-- Partners Pages --*/
+
+.partnersHero {
+  min-height: 320px;    
+  background-image: url("http://groupevolution.bedevious.co.uk/wp-content/uploads/2017/11/PartnersPage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partnerImages {
+    background-color: #cccccc;
+    height: 200px;
+}
+
+.partnerImages img {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.partnersHero h2.primaryFontExtraBold{
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+.noTop{
+  margin-top: 0px;
+}
+
+.partnersHero .headingWithBorder{
+  padding-top: 0px; 
+}
+
+h2.secondaryFont.headingWithBorder{
+    letter-spacing: 2px;
+} 
+
+.partnersHero p{
+    color: #fff;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*-- Partners Sliders Testimonial --*/
+
+div#partnersSliderWrapper .fl-module-content.fl-node-content {
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
 /*-- Custom Footer Five --*/
 
 #customFooterFive{
@@ -309,6 +374,9 @@ ul.cnss-social-icon {
 .fl-page-footer-text.fl-page-footer-text-1 {
     display: none;
 }
+
+
+
 
 
 
