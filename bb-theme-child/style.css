@@ -281,7 +281,19 @@ div#partnersSliderWrapper .fl-module-content.fl-node-content {
     margin: 0px;
 }
 
+.mainSliders {
+    height: 580px;
+}
 
+.partnersSliderLogo img {
+    margin: 0 auto;
+    display: block;
+}
+
+.partnersSliderText {
+    color: #fff;
+    text-align: center;
+}
 
 
 
