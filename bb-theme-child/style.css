@@ -285,21 +285,27 @@ div#partnersSliderWrapper .fl-module-content.fl-node-content {
     height: 580px;
 }
 
+.partnersSliderLogo {
+    padding-top: 50px;
+}
+
 .partnersSliderLogo img {
     margin: 0 auto;
     display: block;
 }
 
-
 .partnersSliderText,
 .partnersSliderName,
 .partnersSliderBusinessName{
+    width: 50%;
+    margin: 0 auto;
     color: #fff;
     text-align: center;
 }
 
 .partnersSliderText {
-
+    font-family: 'MillerBanner', Verdana, Arial, sans-serif, serif;
+    font-size: 25px;
 }
 
 .partnersSliderName {
