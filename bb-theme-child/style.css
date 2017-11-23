@@ -330,9 +330,15 @@ div#partnersSliderWrapper .fl-module-content.fl-node-content {
 
 
 h4.partnerTitle {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-family: 'NunitoSans-ExtraBold';    
+text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'NunitoSans-ExtraBold';
+    letter-spacing: 1px;  
+}
+
+.partnerP {
+    font-size: 13px;
+    color: #000;
 }
 
 
@@ -340,18 +346,17 @@ h4.partnerTitle {
 /*-- Pagination --*/
 
 div#partnersSliderWrapper ul.wpv-pagination-nav-links-container.js-wpv-pagination-nav-links-container.pagination.pagination-dots{
-  margin: 0 auto;
-  margin-top: -40px !important;
-  width: inherit;
-  margin: 0 auto;
-  display: block;
-  background-color: tomato;
-  height: 0px;
-  position: static;
-  margin-bottom: 0px;
-  /* margin-left: 170px !important; */
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: -40px !important;
+    
+    display: block;
+    
+    height: 40px;
+    position: absolute;
+    margin-bottom: 0px;
+    
+  
 }
 
 div#partnersSliderWrapper ul.wpv-pagination-nav-links-container.js-wpv-pagination-nav-links-container.pagination.pagination-dots li {
