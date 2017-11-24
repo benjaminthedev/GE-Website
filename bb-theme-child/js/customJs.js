@@ -12,4 +12,10 @@ $j(document).ready(function(){
 	  window.location.href='http://groupevolution.bedevious.co.uk';
 	});
 
+// Pagination wrapall
+
+//$j( "ul.wpv-pagination-nav-links-container" ).wrapAll( "<div class='pagNewWrapper' />");
+
+
+
 });
