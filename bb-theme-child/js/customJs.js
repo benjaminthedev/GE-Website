@@ -16,6 +16,4 @@ $j(document).ready(function(){
 
 //$j( "ul.wpv-pagination-nav-links-container" ).wrapAll( "<div class='pagNewWrapper' />");
 
-
-
 });

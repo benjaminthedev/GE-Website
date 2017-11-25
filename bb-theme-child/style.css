@@ -8,6 +8,7 @@ Author URI: http://www.fastlinemedia.com
 template: bb-theme
 */
 
+
 .secondaryFont{
   font-family: 'MillerBanner', Verdana, Arial, sans-serif, serif
 }
@@ -45,9 +46,6 @@ a.customBtnHero {
     -o-transition: all 0.8s ease;
      transition: all 0.8s ease;
 }
-
-
-
 
 /*Boxes*/ 
 
@@ -119,8 +117,6 @@ a.customLearnMore:hover{
   background-color: #bd9d4c;
   border: 2px solid #bd9d4c;
 }
-
-
 
 a.customLearnMoreGold{
     padding: 10px 30px;
@@ -224,8 +220,6 @@ a.fl-post-slider-feed-more:hover{
 .fl-post-slider-feed-content p{
   color:#fff;
 }
-
-
 
 /*-- Partners Pages --*/
 
@@ -451,11 +445,6 @@ ul.cnss-social-icon {
 .fl-page-footer-text.fl-page-footer-text-1 {
     display: none;
 }
-
-
-
-
-
 
 /*-- smallFooterLinks --*/
 
